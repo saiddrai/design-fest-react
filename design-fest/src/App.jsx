@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './Navbar/Navbar';
 import Main from './Main/Main';
+import About from './Aboutsection/About';
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
       </header>
       <body>
         <Main/>
+        <About />
       </body>
     </div>
   );

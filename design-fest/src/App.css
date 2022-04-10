@@ -1,0 +1,8 @@
+body {
+  background-color: rgb(0, 39, 73);
+}
+.nav{
+  display: flex;
+  justify-content: flex-end ;
+  background-color: rgb(75, 127, 173) ;
+}

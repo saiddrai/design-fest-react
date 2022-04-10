@@ -1,0 +1,8 @@
+.button {
+  background-color: brown;
+  margin: 10px;
+  background-color: transparent;
+  color: white;
+  border: 0ch;
+  font-size: large;
+}

@@ -3,6 +3,16 @@ import './App.css';
 import NavBar from './Navbar/Navbar';
 import Main from './Main/Main';
 import About from './Aboutsection/About';
+import Speakers from './Speakers/Speakers';
+
+
+ export  function styleFlex(direction){
+  const mystyle = {
+    display: "flex",
+    flexDirection : direction
+  }
+  return mystyle;
+}
 function App() {
   return (
     <div className="App">
@@ -12,6 +22,7 @@ function App() {
       <body>
         <Main/>
         <About />
+        <Speakers />
       </body>
     </div>
   );

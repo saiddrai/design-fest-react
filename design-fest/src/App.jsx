@@ -4,6 +4,7 @@ import NavBar from './Navbar/Navbar';
 import Main from './Main/Main';
 import About from './Aboutsection/About';
 import Speakers from './Speakers/Speakers';
+import MainSpeaker from './MainSpeaker/MainSpealer';
 
 
  export  function styleFlex(direction){
@@ -23,6 +24,7 @@ function App() {
         <Main/>
         <About />
         <Speakers />
+        <MainSpeaker />
       </body>
     </div>
   );
